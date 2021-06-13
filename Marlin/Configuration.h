@@ -1,14 +1,11 @@
-/**
- * Configuration:   27 June 
- * 1. Anycubic facory controller, Sanguino1284P
- * 2. Add manual LCD mesh bed levelling
- * 3. No power loss recover.
- */
+//
+// Configuration:   27 June 
+// 1. Anycubic facory controller, Sanguino1284P
+// 2. Add manual LCD mesh bed levelling
+// 3. No power loss recover.
+//
  
- /** 
- * 
- * 
- * 
+ /**
  * Marlin 3D Printer Firmware
  * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
  *

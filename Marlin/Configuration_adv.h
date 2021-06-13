@@ -1,10 +1,10 @@
-/**
- * Configuration:   27 June 
- * 1. Anycubic facory controller, Sanguino1284P
- * 2. Add manual LCD mesh bed levelling
- * 3. No bed heater.
- * 4. No power oss recover.
- */
+//
+// Configuration:   27 June 
+// 1. Anycubic facory controller, Sanguino1284P
+// 2. Add manual LCD mesh bed levelling
+// 3. No bed heater.
+// 4. No power loss recover.
+//
  
 
 /**
