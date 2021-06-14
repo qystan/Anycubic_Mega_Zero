@@ -1,5 +1,11 @@
 /**
  * Rev 05 June 2021
+ *      14 Jun 2021
+ *        Calibration parameters:
+ *            extruder: 189.8 steps per mm
+ *            x,y max speed: 120mm/s
+ *            max x,y acceleration: 500 mm/s/s @ Junction deviation 0.08
+ * 
  * 
  * Marlin 3D Printer Firmware
  * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
