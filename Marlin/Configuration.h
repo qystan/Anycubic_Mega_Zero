@@ -139,7 +139,7 @@
 
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Tronxy XY3 310"
+#define CUSTOM_MACHINE_NAME "XY3 - 14 Jun 21"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -559,9 +559,9 @@
   #else
     // If we did not set specific parameters then we use one of the default one
     #ifndef DEFAULT_Kp
-      #define DEFAULT_Kp  17.3      // values from PID test on Tronxy 3
-      #define DEFAULT_Ki   9.8
-      #define DEFAULT_Kd  76.3
+      #define DEFAULT_Kp  12.6      // values from PID test on Tronxy 3
+      #define DEFAULT_Ki   0.53
+      #define DEFAULT_Kd  54.6
     #endif
   #endif
 #endif // PIDTEMP
