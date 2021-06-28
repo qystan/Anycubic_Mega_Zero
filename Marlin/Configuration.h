@@ -5,8 +5,10 @@
  *            extruder: 189.8 steps per mm
  *            x,y max speed: 120mm/s
  *            max x,y acceleration: 500 mm/s/s @ Junction deviation 0.08
- * 
- * 
+ *  Rev 06 28 Jun 21
+ *         activate bed pid
+ *          set pid temp range from 10 to 15, to reset to 10
+ *           
  * Marlin 3D Printer Firmware
  * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
  *
@@ -138,7 +140,7 @@
 #define MOTHERBOARD BOARD_CHITU3D_V5 //  V8-190729 is similar to the V5
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "XY3 - 14 Jun 21"
+#define CUSTOM_MACHINE_NAME "XY3 - 28 Jun 21"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
