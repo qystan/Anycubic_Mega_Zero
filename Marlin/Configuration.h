@@ -682,7 +682,7 @@
 //#define PID_DEBUG             // Sends debug data to the serial port. Use 'M303 D' to toggle activation.
 //#define PID_OPENLOOP          // Puts PID in open loop. M104/M140 sets the output power from 0 to PID_MAX
 //#define SLOW_PWM_HEATERS      // PWM with very low frequency (roughly 0.125Hz=8s) and minimum state time of approximately 1s useful for heaters driven by a relay
-#define PID_FUNCTIONAL_RANGE 10 // If the temperature difference between the target temperature and the actual temperature \
+#define PID_FUNCTIONAL_RANGE 10 // If the temperature difference between the target temperature and the actual temperature 
                                 // is more than PID_FUNCTIONAL_RANGE then the PID will be shut off and the heater will be set to min/max.
 #endif
 
@@ -992,7 +992,7 @@
  */
 #if DISABLED(CLASSIC_JERK)
 #define JUNCTION_DEVIATION_MM 0.08 // (mm) Distance from real junction edge
-#define JD_HANDLE_SMALL_SEGMENTS   // Use curvature estimation instead of just the junction angle \
+#define JD_HANDLE_SMALL_SEGMENTS   // Use curvature estimation instead of just the junction angle 
                                    // for small segments (< 1mm) with large junction angles (> 135°).
 #endif
 
@@ -1344,7 +1344,7 @@
  */
 //#define Z_IDLE_HEIGHT Z_HOME_POS
 
-#define Z_HOMING_HEIGHT 10 // (mm) Minimal Z height before homing (G28) for Z clearance above the bed, clamps, ... \
+#define Z_HOMING_HEIGHT 10 // (mm) Minimal Z height before homing (G28) for Z clearance above the bed, clamps, ... 
                            // Be sure to have this much clearance over your Z_MAX_POS to prevent grinding.
 
 #define Z_AFTER_HOMING 5 // (mm) Height to move to after homing Z
