@@ -934,7 +934,7 @@
  */
 #define DEFAULT_MAX_ACCELERATION  \
   {                               \
-    800, 600, 500, 1500          \
+    800, 600, 500, 1200          \
   }
 
 #define LIMITED_MAX_ACCEL_EDITING // Limit edit via M201 or LCD to DEFAULT_MAX_ACCELERATION * 2
@@ -954,7 +954,7 @@
  *   M204 T    Travel Acceleration
  */
 #define DEFAULT_ACCELERATION 800        // X, Y, Z and E acceleration for printing moves
-#define DEFAULT_RETRACT_ACCELERATION 600 // E acceleration for retracts
+#define DEFAULT_RETRACT_ACCELERATION 1000 // E acceleration for retracts
 #define DEFAULT_TRAVEL_ACCELERATION 1200 // X, Y, Z acceleration for travel (non printing) moves
 
 /**
